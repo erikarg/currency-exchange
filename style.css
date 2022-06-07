@@ -1,0 +1,39 @@
+html {
+  background: rgb(14, 14, 14);
+}
+
+h1, h3, ul, label {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  line-height: 2.3rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-family: 'Lobster', cursive;
+  color: green;
+}
+
+header {
+  text-align: center;
+  padding: 10px;
+}
+
+#search, #info, #base {
+  text-align: center;
+  padding: 10px;
+}
+
+#info {
+  column-count: 3;
+  column-rule: 2px solid rgb(226, 230, 23);
+  column-gap: 2rem;
+}
+
+#currency-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+}
